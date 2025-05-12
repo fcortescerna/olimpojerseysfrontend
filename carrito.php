@@ -17,8 +17,6 @@ include("includes/header.php");
   <h2>Tu carrito</h2>
   <div id="productos-carrito"></div>
 </section>
-<script src="./scripts/contadorCarrito.js"></script>
-<script src="./scripts/carrito.js"></script>
 </body>
 </html>
 
