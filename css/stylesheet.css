@@ -1,0 +1,83 @@
+.navbar-nav .nav-item:not(:last-child) .nav-link::after {
+    content: " | ";
+    color: darkgrey; 
+    margin-left: 8px; 
+}
+#catalogo{
+    background-color: burlywood;
+}
+
+#carrito{
+    background-color: burlywood;
+}
+
+.navbar { font-family: 'Courier New', Courier, monospace; }
+
+
+header.hero {
+    background-color: black !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: burlywood !important; 
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#catalogo .card-title {
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+}
+
+#catalogo .card-text del {
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+}
+
+
+#catalogo .card-text .precio-antiguo {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+
+#catalogo .text {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+#catalogo .btn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #FFA500; 
+    border-color: #FFA500;
+    color: white;
+}
+
+#catalogo .btn:hover {
+    background-color: #FF8C00; 
+    border-color: #FF8C00;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+#contacto {
+    background-color: blanchedalmond;
+    padding-bottom: 20px; 
+    padding-top: 20px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.text-dark:hover {
+    text-decoration: underline !important;
+}
